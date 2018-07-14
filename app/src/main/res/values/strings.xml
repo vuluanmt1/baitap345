@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">baitap345</string>
+    <string name="us">English</string>
+    <string name="vn">Việt Nam</string>
+    <string name="jp">日本語</string>
+    <string name="btn1">Have Fun</string>
+    <string name="btn2">Do Something</string>
+    <string name="btn3">Click Here</string>
+    <string name="btn4">Surprise</string>
+    <string name="title_activity_app_contact">AppContactActivity</string>
+
+</resources>

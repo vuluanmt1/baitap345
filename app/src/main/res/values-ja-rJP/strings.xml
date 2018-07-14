@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">baitap345</string>
+    <string name="btn1">楽しむ</string>
+    <string name="btn2">かをする</string>
+    <string name="btn3">クリック</string>
+    <string name="btn4">驚き</string>
+</resources>

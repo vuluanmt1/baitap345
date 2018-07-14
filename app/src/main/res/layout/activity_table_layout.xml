@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#060606"
+    tools:context=".Bai3.TableLayoutActivity">
+
+    <TableRow>
+
+        <Button
+
+            android:id="@+id/btnColor1"
+            android:textStyle="bold"
+            android:textColor="#e71717"
+            android:textSize="10dp"
+            android:text="Color1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:id="@+id/btnColor2"
+            android:textStyle="bold"
+            android:textColor="#e7dd17"
+            android:textSize="10dp"
+            android:text="Color2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:id="@+id/btnColor3"
+            android:textStyle="bold"
+            android:textColor="#1775e7"
+            android:textSize="10dp"
+            android:text="Color3"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_span="3"
+            android:background="#2eb72e"
+            android:textColor="#2dd95b" />
+
+    </TableRow>
+
+    <TableRow android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="Clear" />
+
+    </TableRow>
+
+
+</TableLayout>
